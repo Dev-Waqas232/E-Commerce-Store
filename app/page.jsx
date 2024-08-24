@@ -1,3 +1,9 @@
+import FeaturedProducts from '@/components/FeaturedProducts';
+
 export default function Home() {
-  return <main>Hello World</main>;
+  return (
+    <main>
+      <FeaturedProducts />
+    </main>
+  );
 }
